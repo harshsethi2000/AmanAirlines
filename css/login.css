@@ -1,0 +1,117 @@
+
+*{
+	box-sizing: border-box;
+}
+body
+{
+	margin: 0;  
+  font-family: Arial, Helvetica, sans-serif;
+ background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(eg3.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+
+
+
+}
+
+.navbar a:hover  {
+  background: #ddd;
+  color: black;
+  
+}
+
+.footer
+{
+	background: white;
+	position: relative;
+	margin-top: 40px;
+	height: 200px;
+	width: 100%;
+	
+	
+}
+.container{
+    width: 30%;
+    height: 50%;
+    color: rgb(11, 12, 11);
+    position: absolute;
+    top: 18%;
+    left: 50%;    
+    border-radius: 10%;
+}
+.container h1{
+    display:inline-block;
+    font-size: 40px;
+    border-bottom: 5px solid white;
+    margin-bottom: 15px;
+    padding: 13px 0;
+}
+.box{
+    width: 100%;
+    margin: 22px 0px;
+    border-bottom: 2px solid rgb(8, 8, 8);
+}
+
+.box input{
+    background: none;
+    width: 75%;
+    padding: 12px 0px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: rgb(10, 9, 9);
+
+}
+.box i{
+    width: 25px;
+    text-align: center;
+}
+.btn{
+    cursor: pointer;
+    outline: none;
+    margin: 12px 0;
+    padding: 10px 21px;
+    border: 2px solid rgb(20, 20, 20);
+    border-radius: 10px;
+    font-size: 10px;
+    background: none;
+    color: gray
+    font-weight bold;
+
+}
+.btn:hover{
+    color: gray;
+    background:blanchedalmond
+}
+.footer
+{
+	background: white;
+	position: relative;
+	margin-top: 40px;
+	height: 200px;
+	width: 100%;
+	
+	
+}

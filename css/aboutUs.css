@@ -1,0 +1,99 @@
+*{
+	box-sizing: border-box;
+}
+body
+{
+	margin: 0;  
+  font-family: Arial, Helvetica, sans-serif;
+ background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(eg3.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  padding: 10px;
+  width: 100%;
+  
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+
+
+
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+
+
+
+
+.container{
+    height: 75vh;
+    width: 50%;
+    background-color: rgba(0, 0, 0, .6);
+    position: relative;
+    top: 60%;
+    left: 50%;
+    bottom: 60%;
+    transform: translate(-50%,-50%);
+    padding: 0 10px;
+    
+}
+
+.img{
+    height: 70px;
+    width: 70px;
+    background: url("images/logo.jpg")no-repeat;
+    background-size: cover ;
+    background-position: center ;
+    border-radius: 50px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.container h1{
+    color: white;
+    margin-top: 40px;
+}
+
+.container p{
+    color: white;
+    margin-top: 60px;
+    font-size: large;
+}
+
+.btn{
+    background: no-repeat;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    width: 50%;
+    padding: 7px 15px;
+    font-size: large;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.btn:hover{
+    background: white;
+    color: black;
+}
